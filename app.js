@@ -13,7 +13,9 @@ app.get('/bye', function(req, res) {
 })
 
 app.get('/dog', function(req, res) {
+   // The console log goes to the server terminal window
    console.log('Someone made a get request at /dog')
+   // This goes to the localhost:3000 in the browser
    res.send('Meow')
 })
 
